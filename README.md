@@ -28,14 +28,14 @@ The Weather App is a simple web application that provides users with current wea
 2. Navigate to the project directory:
 
     ```bash
-    cd weather-app
+    cd weather-app-assignment
     ```
 
 3. Open the `index.html` file in a web browser to view the main page.
 
 ## Dependencies
 
-- This application relies on the Open Meteo API to fetch weather data.
+- This application relies on the [Open Meteo API](https://open-meteo.com/) to fetch weather data.
 - No additional dependencies are required to run the application locally.
 
 ## Credits
