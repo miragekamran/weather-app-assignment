@@ -40,7 +40,7 @@ The Weather App is a simple web application that provides users with current wea
 
 ## Credits
 
-- This project is created by [Your Name].
+- This project is created by Mirage Kamran.
 - Weather data is provided by the Open Meteo API.
 
 ## License
