@@ -66,7 +66,11 @@ h1 {
     word-spacing: 0.2em;
 }
 
-#currenttemperature, #currentdate, #currenttime, #currentshowers, #currentrain {
+#currenttemperature,
+#currentdate,
+#currenttime,
+#currentshowers,
+#currentrain {
     padding: 5px 10px;
     background-color: #007bff;
     color: #fff;

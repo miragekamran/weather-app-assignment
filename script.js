@@ -1,4 +1,4 @@
-// JavaScript for index.html
+// This is for index.html
 if (document.getElementById("viewButton")) {
     document
         .getElementById("viewButton")
@@ -7,7 +7,7 @@ if (document.getElementById("viewButton")) {
         });
 }
 
-// JavaScript for details.html
+// this is for details.html
 if (document.getElementById("backToMainButton")) {
     document
         .getElementById("backToMainButton")
@@ -81,7 +81,7 @@ fetch(
             }
         }
 
-        // Set current temperature
+        // Set current temperature, date, time, showers, and rain
         const currentDate = currDateTime.toLocaleDateString();
         const currentTime = currDateTime.toLocaleTimeString([], {
             hour: "2-digit",
@@ -113,6 +113,6 @@ fetch(
             ).innerText = `Rain: ${currRain}`;
         }
 
-        console.log("fetched data: ", data);
+        // console.log("fetched data: ", data);
     })
     .catch((error) => console.log(error));
